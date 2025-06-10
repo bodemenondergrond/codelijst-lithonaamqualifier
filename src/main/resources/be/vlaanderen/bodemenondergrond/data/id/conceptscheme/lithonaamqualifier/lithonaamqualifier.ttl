@@ -1,0 +1,137 @@
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/lithonaamqualifier/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+concept:Xhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.Xhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat materiaal 'X'."@nl;
+    skos:prefLabel "Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:plaatselijkXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.plaatselijkXhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat plaatselijk materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat plaatselijk materiaal 'X'."@nl;
+    skos:prefLabel "plaatselijk Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:plaatselijksterkXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.plaatselijksterkXhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat plaatselijk een grote hoeveelheid van materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat plaatselijk een grote hoeveelheid van materiaal 'X'."@nl;
+    skos:prefLabel "plaatselijk sterk Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:plaatselijkveelX dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.plaatselijkveelX";
+    a skos:Concept;
+    skos:definition "Er komt plaatselijk een grote hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Er komt plaatselijk een grote hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:prefLabel "plaatselijk veel X"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:plaatselijkweinigX dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.plaatselijkweinigX";
+    a skos:Concept;
+    skos:definition "Er komt plaatselijk een kleine hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Er komt plaatselijk een kleine hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:prefLabel "plaatselijk weinig X"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:plaatselijkweinigXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.plaatselijkweinigXhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat plaatselijk een kleine hoeveelheid van materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat plaatselijk een kleine hoeveelheid van materiaal 'X'."@nl;
+    skos:prefLabel "plaatselijk weinig Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:sterkXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.sterkXhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat een grote hoeveelheid van materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat een grote hoeveelheid van materiaal 'X'."@nl;
+    skos:prefLabel "sterk Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:veelX dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.veelX";
+    a skos:Concept;
+    skos:definition "Er komt een grote hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Er komt een grote hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:prefLabel "veel X"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:weinigX dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.weinigX";
+    a skos:Concept;
+    skos:definition "Er komt een kleine hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Er komt een kleine hoeveelheid van materiaal 'X' voor in het beschreven interval."@nl;
+    skos:prefLabel "weinig X"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:weinigXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.weinigXhoudend";
+    a skos:Concept;
+    skos:definition "Het beschreven interval bevat een kleine hoeveelheid van materiaal 'X'."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Het beschreven interval bevat een kleine hoeveelheid van materiaal 'X'."@nl;
+    skos:prefLabel "weinig Xhoudend"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+concept:zonderqualifier dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.zonderqualifier";
+    a skos:Concept;
+    skos:definition "Materiaal 'X' komt voor in het beschreven interval."@nl;
+    skos:inScheme conceptscheme:lithoqualifier;
+    skos:note "Materiaal 'X' komt voor in het beschreven interval."@nl;
+    skos:prefLabel "zonder qualifier"@nl;
+    skos:topConceptOf conceptscheme:lithoqualifier.
+conceptscheme:lithoqualifier dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.lithoqualifier";
+    a skos:ConceptScheme;
+    skos:hasTopConcept concept:Xhoudend, concept:plaatselijkXhoudend, concept:plaatselijksterkXhoudend, concept:plaatselijkveelX, concept:plaatselijkweinigX, concept:plaatselijkweinigXhoudend, concept:sterkXhoudend, concept:veelX, concept:weinigX, concept:weinigXhoudend, concept:zonderqualifier;
+    skos:prefLabel "Lijst van lithonaam qualifiers"@nl.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-lithonaamqualifier">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.lithoqualifier">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/Xhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/plaatselijkXhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/plaatselijksterkXhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/plaatselijkveelX" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/plaatselijkweinigX" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/plaatselijkweinigXhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/sterkXhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/veelX" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigX" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
