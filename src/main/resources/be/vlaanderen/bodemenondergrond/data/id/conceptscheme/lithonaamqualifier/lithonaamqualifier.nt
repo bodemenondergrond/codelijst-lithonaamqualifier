@@ -68,13 +68,6 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend> <http://www.w3.org/2004/02/skos/core#note> "Het beschreven interval bevat een kleine hoeveelheid van materiaal 'X'."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend> <http://www.w3.org/2004/02/skos/core#prefLabel> "weinig Xhoudend"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.zonderqualifier" .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/2004/02/skos/core#definition> "Materiaal 'X' komt voor in het beschreven interval."@nl .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/2004/02/skos/core#note> "Materiaal 'X' komt voor in het beschreven interval."@nl .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/2004/02/skos/core#prefLabel> "zonder qualifier"@nl .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.lithoqualifier" .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/Xhoudend> .
@@ -87,5 +80,4 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/veelX> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigX> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend> .
-<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/lithoqualifier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van lithonaam qualifiers"@nl .

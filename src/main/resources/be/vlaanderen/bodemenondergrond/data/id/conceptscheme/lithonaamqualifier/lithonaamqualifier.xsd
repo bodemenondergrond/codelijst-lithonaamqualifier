@@ -12,7 +12,6 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/veelX" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigX" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/weinigXhoudend" />
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/lithonaamqualifier/zonderqualifier" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

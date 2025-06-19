@@ -495,16 +495,6 @@
             "topConceptOf": "conceptscheme:lithoqualifier"
         },
         {
-            "id": "concept:zonderqualifier",
-            "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.zonderqualifier",
-            "definition": "Materiaal 'X' komt voor in het beschreven interval.",
-            "inScheme": "conceptscheme:lithoqualifier",
-            "note": "Materiaal 'X' komt voor in het beschreven interval.",
-            "prefLabel": "zonder qualifier",
-            "topConceptOf": "conceptscheme:lithoqualifier"
-        },
-        {
             "id": "conceptscheme:lithoqualifier",
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.lithoqualifier",
@@ -518,8 +508,7 @@
                 "concept:sterkXhoudend",
                 "concept:veelX",
                 "concept:weinigX",
-                "concept:weinigXhoudend",
-                "concept:zonderqualifier"
+                "concept:weinigXhoudend"
             ],
             "prefLabel": "Lijst van lithonaam qualifiers"
         }

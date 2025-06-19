@@ -124,14 +124,7 @@ concept:weinigXhoudend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.co
     skos:note "Het beschreven interval bevat een kleine hoeveelheid van materiaal 'X'."@nl;
     skos:prefLabel "weinig Xhoudend"@nl;
     skos:topConceptOf conceptscheme:lithoqualifier.
-concept:zonderqualifier dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.lithoqualifier.zonderqualifier";
-    a skos:Concept;
-    skos:definition "Materiaal 'X' komt voor in het beschreven interval."@nl;
-    skos:inScheme conceptscheme:lithoqualifier;
-    skos:note "Materiaal 'X' komt voor in het beschreven interval."@nl;
-    skos:prefLabel "zonder qualifier"@nl;
-    skos:topConceptOf conceptscheme:lithoqualifier.
 conceptscheme:lithoqualifier dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.lithoqualifier";
     a skos:ConceptScheme;
-    skos:hasTopConcept concept:Xhoudend, concept:plaatselijkXhoudend, concept:plaatselijksterkXhoudend, concept:plaatselijkveelX, concept:plaatselijkweinigX, concept:plaatselijkweinigXhoudend, concept:sterkXhoudend, concept:veelX, concept:weinigX, concept:weinigXhoudend, concept:zonderqualifier;
+    skos:hasTopConcept concept:Xhoudend, concept:plaatselijkXhoudend, concept:plaatselijksterkXhoudend, concept:plaatselijkveelX, concept:plaatselijkweinigX, concept:plaatselijkweinigXhoudend, concept:sterkXhoudend, concept:veelX, concept:weinigX, concept:weinigXhoudend;
     skos:prefLabel "Lijst van lithonaam qualifiers"@nl.
