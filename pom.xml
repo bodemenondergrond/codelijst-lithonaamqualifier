@@ -20,9 +20,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-codelijst-lithonaamqualifier.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-codelijst-lithonaamqualifier.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-codelijst-lithonaamqualifier.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-lithonaamqualifier.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-lithonaamqualifier.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-lithonaamqualifier.git</url>
         <tag>HEAD</tag>
     </scm>
 
